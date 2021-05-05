@@ -1,12 +1,12 @@
-const LayerDense = require("./layers/LayerDense");
-const SoftmaxLayer = require("./layers/SoftmaxLayer");
+const LayerDense = require("./LayerDense");
+const SoftmaxLayer = require("./SoftmaxLayer");
 const Mathjs = require("mathjs");
 const fs = require('fs');
-const ConvolvedLayer = require('./layers/ConvolvedLayer');
-const ConvolvedToLineal = require("./layers/ConvolvedToLineal");
-const PoolingLayer = require("./layers/PoolingLayer"); 
-const DropOutLayer = require("./layers/DropOutLayer"); 
-const StopEarly = require('./layers/StopEarly');
+const ConvolvedLayer = require('./ConvolvedLayer');
+const ConvolvedToLineal = require("./ConvolvedToLineal");
+const PoolingLayer = require("./PoolingLayer"); 
+const DropOutLayer = require("./DropOutLayer"); 
+const StopEarly = require('./StopEarly');
 
 class NeuralNetwork { 
     constructor(layers = [], numEntradas, options = {}) {
