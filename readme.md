@@ -5,3 +5,7 @@ Examples and documentation are in progress Sorry.
 cd test
 node exemple-perceptron.js
 ``` 
+```bash
+cd test
+node neural01.js
+``` 
